@@ -4,7 +4,7 @@
     "id" : 0,
     "label" : "Home",
     "icon" : "CiHome",
-    "pathname" : "/MovieDB"
+    "pathname" : "/MovieDB/"
   },
   {
     "id" : 1,

@@ -1,7 +1,7 @@
 [
   {
     "id" : 0,
-    "image" : "/assets/playing-tokyo.png",
+    "image" : "./../assets/playing-tokyo.png",
     "title" : "Tokyo Train",
     "description" : "2022 | Action comedy"
   },
