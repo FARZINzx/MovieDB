@@ -5,8 +5,7 @@ import nowPlayingCard from "/src/db/now-playing-card.json";
 import upcomingCard from "/src/db/upcoming-card.json";
 //icon
 import { CiHeart,CiSearch } from "react-icons/ci";
-//images
-const images = import.meta.glob('/src/assets/*.png', { eager: true });
+
 
 export default function Home() {
     return (
@@ -62,7 +61,7 @@ export default function Home() {
                         {nowPlayingCard.map((item) => (
                             <Card
                                 key={item.id}
-                                image={images[`/src/assets/${item.image}`]}
+                                image={item.image}
                                 title={item.title}
                                 description={item.description}
                                 size="large"
@@ -78,7 +77,7 @@ export default function Home() {
                         {upcomingCard.map((item) => (
                             <Card
                                 key={item.id}
-                                image={images[`/src/assets/${item.image}`]}
+                                image={item.image}
                                 title={item.title}
                                 description={item.description}
                                 size="small"

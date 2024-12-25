@@ -6,7 +6,6 @@ import {Card} from "./card.jsx";
 import watchListCard from "../db/watch-list.json";
 //image
 import avatar from "../assets/avatar.jpg"
-const images = import.meta.glob('/src/assets/*.png', { eager: true });
 
 
 
@@ -46,7 +45,7 @@ export default function Favorites(){
                     {watchListCard.map((item) => (
                         <Card
                             key={item.id}
-                            image={images[`/src/assets/${item.image}`]}
+                            image={item.image}
                             title={item.title}
                             description={item.description}
                             size="small"

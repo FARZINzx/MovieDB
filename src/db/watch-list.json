@@ -1,13 +1,13 @@
 [
   {
     "id" : 0,
-    "image" : "/src/assets/bullet.png",
+    "image" : "/assets/bullet.png",
     "title" : "Bullet science",
     "description" : "2022 | Action comedy"
   },
   {
     "id" : 1,
-    "image" : "/src/assets/playing-gucci.png",
+    "image" : "/assets/playing-gucci.png",
     "title" : "House of Gucci",
     "description" : "2022 | Drama"
   }
