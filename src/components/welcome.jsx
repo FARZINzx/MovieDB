@@ -7,7 +7,7 @@ export default function Welcome(){
        <figure className='md:w-[305px] md:h-[234px] w-[125px] h-[184px] '>
         <img
             className='w-full h-full object-contain animate-pulse'
-            src='/src/assets/logo.png'
+            src='./../assets/logo.png'
             alt='logo' />
        </figure>
       </div>
