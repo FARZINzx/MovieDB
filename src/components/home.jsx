@@ -6,6 +6,7 @@ import upcomingCard from "/src/db/upcoming-card.json";
 //icon
 import { CiHeart,CiSearch } from "react-icons/ci";
 
+
 export default function Home() {
     return (
         <section className="bg-[#25221F] w-full font-poppins">

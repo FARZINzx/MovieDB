@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom'
 import * as Icons from "react-icons/ci";
 //json
 import sidebarMenuItem from "/src/db/sidebar-menu.json"
+//image
+import Logo from "../assets/logo.png"
 
 
 export default function Sidebar(){
@@ -16,7 +18,7 @@ export default function Sidebar(){
                     <figure className='w-[37px] h-[31px]'>
                         <img
                             className='w-full h-full object-contain'
-                            src='/src/assets/logo.png'
+                            src={Logo}
                             alt='logo' />
                     </figure>
                     <p className='font-bold text-[22px]'>MovieDB</p>

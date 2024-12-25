@@ -1,4 +1,6 @@
 
+//image
+import Logo from "../assets/logo.png"
 
 export default function Welcome(){
  return (
@@ -7,7 +9,7 @@ export default function Welcome(){
        <figure className='md:w-[305px] md:h-[234px] w-[125px] h-[184px] '>
         <img
             className='w-full h-full object-contain animate-pulse'
-            src='./../assets/logo.png'
+            src={Logo}
             alt='logo' />
        </figure>
       </div>

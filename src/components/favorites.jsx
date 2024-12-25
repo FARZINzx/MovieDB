@@ -4,6 +4,8 @@ import { FaRegBell , FaSearch  } from "react-icons/fa";
 import {Card} from "./card.jsx";
 //json
 import watchListCard from "../db/watch-list.json";
+//image
+import avatar from "../assets/avatar.jpg"
 
 
 
@@ -28,7 +30,7 @@ export default function Favorites(){
                     <FaRegBell className="text-white size-6 font-semibold cursor-pointer active:scale-95 duration-300"/>
                     <div className='flex items-center gap-2'>
                         <figure className='size-8 rounded-full overflow-hidden'>
-                            <img src='src/assets/avatar.jpg' alt='avater' className={'object-cover object-center'} />
+                            <img src={avatar} alt='avater' className={'object-cover object-center'} />
                         </figure>
                         <p className={'font-medium text-white'}>Tetiana</p>
                     </div>
