@@ -4,12 +4,12 @@
     "id" : 0,
     "label" : "Home",
     "icon" : "CiHome",
-    "pathname" : "/"
+    "pathname" : "/MovieDB"
   },
   {
     "id" : 1,
     "label" : "Favorites",
     "icon" : "CiHeart",
-    "pathname" : "/favorites"
+    "pathname" : "/MovieDB/favorites"
   }
 ]
