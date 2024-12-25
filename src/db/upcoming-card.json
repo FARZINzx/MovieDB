@@ -1,0 +1,20 @@
+[
+  {
+    "id" : 0,
+    "image" : "/src/assets/wedding.png",
+    "title" : "Tokyo Train",
+    "description" : "2022 | Action comedy"
+  },
+  {
+    "id" : 1,
+    "image" : "/src/assets/skate.png",
+    "title" : "Moonfall",
+    "description" : "2022 | Sci-fi"
+  },
+  {
+    "id" : 2,
+    "image" : "/src/assets/galaxy.png",
+    "title" : "Life in Paris",
+    "description" : "2023 | Documentary series"
+  }
+]

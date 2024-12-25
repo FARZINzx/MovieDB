@@ -1,0 +1,26 @@
+[
+  {
+    "id" : 0,
+    "image" : "/src/assets/playing-tokyo.png",
+    "title" : "Tokyo Train",
+    "description" : "2022 | Action comedy"
+  },
+  {
+    "id" : 1,
+    "image" : "/src/assets/playing-moonfall.png",
+    "title" : "Moonfall",
+    "description" : "2022 | Sci-fi"
+  },
+  {
+    "id" : 2,
+    "image" : "/src/assets/playing-paris.png",
+    "title" : "Life in Paris",
+    "description" : "2023 | Documentary series"
+  },
+  {
+    "id" : 3,
+    "image" : "/src/assets/playing-gucci.png",
+    "title" : "House of Gucci",
+    "description" : "2021 | Drama"
+  }
+]

@@ -1,0 +1,15 @@
+
+[
+  {
+    "id" : 0,
+    "label" : "Home",
+    "icon" : "CiHome",
+    "pathname" : "/"
+  },
+  {
+    "id" : 1,
+    "label" : "Favorites",
+    "icon" : "CiHeart",
+    "pathname" : "/favorites"
+  }
+]
