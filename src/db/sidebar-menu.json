@@ -1,15 +1,56 @@
-
-[
-  {
-    "id" : 0,
-    "label" : "Home",
-    "icon" : "CiHome",
-    "pathname" : "/MovieDB/"
-  },
-  {
-    "id" : 1,
-    "label" : "Favorites",
-    "icon" : "CiHeart",
-    "pathname" : "/MovieDB/favorites"
-  }
-]
+{
+  "part-1": [
+    {
+      "id": 0,
+      "label": "Home",
+      "icon": "House",
+      "pathname": "/"
+    },
+    {
+      "id": 1,
+      "label": "Favorites",
+      "icon": "Heart",
+      "pathname": "/favorites"
+    },
+    {
+      "id": 2,
+      "label": "Top Rated",
+      "icon": "TrendingUp",
+      "pathname": "#"
+    },
+    {
+      "id": 3,
+      "label": "Coming soon",
+      "icon": "Calendar",
+      "pathname": "#"
+    }
+  ],
+  "part-2" : [
+    {
+      "id": 4,
+      "label": "Community",
+      "icon": "Users",
+      "pathname": "#"
+    },
+    {
+      "id": 5,
+      "label": "Social",
+      "icon": "MessageCircle",
+      "pathname": "#"
+    }
+  ],
+  "part-3" : [
+    {
+      "id": 6,
+      "label": "Settings",
+      "icon": "SlidersVertical",
+      "pathname": "#"
+    },
+    {
+      "id": 7,
+      "label": "Logout",
+      "icon": "LogOut",
+      "pathname": "#"
+    }
+  ]
+}

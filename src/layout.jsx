@@ -27,7 +27,7 @@ const Layout = () => {
                     <Sidebar /> {/* This component will show on all pages */}
                     <div className="col-span-5">
                         <Routes>
-                            <Route path="/MovieDB" element={<Home />} />
+                            <Route path="/" element={<Home />} />
                             <Route path="/favorites" element={<Favorites />} />
                         </Routes>
                     </div>
