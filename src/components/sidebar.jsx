@@ -35,7 +35,7 @@ export default function Sidebar() {
                                 <button
                                     onClick={() => navigate(item.pathname)}
                                     key={item.id}
-                                    className={`flex items-center gap-3 w-full ${location.pathname === item.pathname ? 'text-[#01B4E4] font-bold' : 'text-white'}`}>
+                                    className={`flex items-center gap-3 w-full hover:text-slate-400 duration-300 active:scale-95 ${location.pathname === item.pathname ? 'text-[#01B4E4] font-bold' : 'text-white'}`}>
                                     {IconComponent && <IconComponent className="text-2xl"/>}
                                     <span>{item.label}</span>
                                 </button>
@@ -49,7 +49,7 @@ export default function Sidebar() {
                                 <button
                                     onClick={() => navigate(item.pathname)}
                                     key={item.id}
-                                    className={`flex items-center gap-3 w-full ${location.pathname === item.pathname ? 'text-[#01B4E4] font-bold' : 'text-white'}`}>
+                                    className={`flex items-center gap-3 w-full hover:text-slate-400 duration-300 active:scale-95 ${location.pathname === item.pathname ? 'text-[#01B4E4] font-bold' : 'text-white'}`}>
                                     {IconComponent && <IconComponent className="text-2xl"/>}
                                     <span>{item.label}</span>
                                 </button>
@@ -63,7 +63,7 @@ export default function Sidebar() {
                                 <button
                                     onClick={() => navigate(item.pathname)}
                                     key={item.id}
-                                    className={`flex items-center gap-3 w-full ${location.pathname === item.pathname ? 'text-[#01B4E4] font-bold' : 'text-white'}`}>
+                                    className={`flex items-center gap-3 w-full hover:text-slate-400 duration-300 active:scale-95 ${location.pathname === item.pathname ? 'text-[#01B4E4] font-bold' : 'text-white'}`}>
                                     {IconComponent && <IconComponent className="text-2xl"/>}
                                     <span>{item.label}</span>
                                 </button>

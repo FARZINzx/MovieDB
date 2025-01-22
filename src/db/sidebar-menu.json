@@ -4,13 +4,13 @@
       "id": 0,
       "label": "Home",
       "icon": "House",
-      "pathname": "/"
+      "pathname": "/MovieDB"
     },
     {
       "id": 1,
       "label": "Favorites",
       "icon": "Heart",
-      "pathname": "/favorites"
+      "pathname": "/MovieDB/favorites"
     },
     {
       "id": 2,

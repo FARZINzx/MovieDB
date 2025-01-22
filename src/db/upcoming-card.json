@@ -1,19 +1,19 @@
 [
   {
     "id" : 0,
-    "image" : "/wedding.png",
+    "image" : "/MovieDB/wedding.png",
     "title" : "Tokyo Train",
     "description" : "2022 | Action comedy"
   },
   {
     "id" : 1,
-    "image" : "/skate.png",
+    "image" : "/MovieDB/skate.png",
     "title" : "Moonfall",
     "description" : "2022 | Sci-fi"
   },
   {
     "id" : 2,
-    "image" : "/galaxy.png",
+    "image" : "/MovieDB/galaxy.png",
     "title" : "Life in Paris",
     "description" : "2023 | Documentary series"
   }
